@@ -7,7 +7,7 @@ import { PrivateRoute } from "./PrivateRoute";
 import { PublicRoutes } from "./PublicRoutes";
 
 export const AppRouter = () => {
-  const { user } = useContext(AuthContext);
+  //const { user } = useContext(AuthContext);
   return (
     <div>
       <BrowserRouter>
