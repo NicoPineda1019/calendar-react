@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import { AuthContext } from "../auth/authContext";
+//import { AuthContext } from "../auth/authContext";
 import { LoginScreen } from "../components/login/LoginScreen";
 import { DashBoardRoutes } from "./DashBoardRoutes";
 import { PrivateRoute } from "./PrivateRoute";
